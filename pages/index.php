@@ -78,18 +78,21 @@ function load_hot()
 
 function check_session()
 {
-    if ($_SESSION['name']) {
-        echo '<script type=text/javascript>$("#li_login").css("display","none");' .
-            '$("#li_reg").css("display","none");' .
-            '$("#li_name").css("display","block");' .
-            '$("#li_logout").css("display","block");' .
-            '$("#user_href").append(" ' . $_SESSION['name'] . ' ")</script>';
-    }else{
-        echo '<script type=text/javascript>$("#li_login").css("display","block");' .
-            '$("#li_reg").css("display","block");' .
-            '$("#li_name").css("display","none");' .
-            '$("#li_logout").css("display","none");</script>';
+    if(isset($_SESSION['name'])){
+        if ($_SESSION['name']) {
+            echo '<script type=text/javascript>$("#li_login").css("display","none");' .
+                '$("#li_reg").css("display","none");' .
+                '$("#li_name").css("display","block");' .
+                '$("#li_logout").css("display","block");' .
+                '$("#user_href").append(" ' . $_SESSION['name'] . ' ")</script>';
+        }else{
+            echo '<script type=text/javascript>$("#li_login").css("display","block");' .
+                '$("#li_reg").css("display","block");' .
+                '$("#li_name").css("display","none");' .
+                '$("#li_logout").css("display","none");</script>';
+        }
     }
+
 }
 
 function logout(){
