@@ -12,6 +12,20 @@ $(document).ready(function () {
         $("#err_tag_id").css('display', 'none');
     });
 
+    $("input[name='name']").blur(function () {
+        if ($.trim($("input[ name='name']").val()) == "") {
+            $("input[name='name']").css('border-color', '#FF5B5B');
+            $("#err_tag_name").css('display', 'block');
+            $("#err_label_name").text("用户名不能为空！");
+        }
+    });
+
+    $("input[name='name']").focus(function () {
+        $("input[name='name']").css('border-color', '#66AFE9');
+        $("#err_label_name").text("");
+        $("#err_tag_name").css('display', 'none');
+    });
+
     $("input[ name='password']").blur(function () {
         if ($.trim($("input[ name='password']").val()) == "") {
             $("input[ name='password']").css('border-color', '#FF5B5B');
@@ -44,18 +58,23 @@ function check_pwd() {
         $("input[name='id']").css('border-color', '#FF5B5B');
         $("#err_tag_id").css('display', 'block');
         $("#err_label_id").text("账号不能为空！");
-        return false;
+        return;
     } else if ($.trim($("input[name ='password']").val()) == "") {
         $("#err_tag_pwd").css('display', 'block');
         $("#err_label_pwd1").text("请输入密码！");
-        return false;
+        return;
     } else if ($("input[ name = 'password']").val() != $("input[ name = 'password1']").val()) {
         $("#err_tag_pwd1").css('display', 'block');
         $("#err_label_pwd1").text("两次输入的密码不一致！");
-        return false;
+        return;
     } else {
         $(".err_tag").css('display','none');
-        return true;
+        $.ajax({
+            type: "post",
+            dataType: "script",
+            url: "register.php",
+            data: $("#reg_form").serialize(),
+        });
     }
 }
 
