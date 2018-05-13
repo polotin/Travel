@@ -72,7 +72,6 @@ function load_hot()
                                 </div>
                             </section>';
 
-
     echo $html_str;
 }
 
