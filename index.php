@@ -16,8 +16,6 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -51,7 +49,7 @@
                                 <a class="nav-link" href="#tm-section-3">推荐</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#tm-section-4">联系我们</a>
+                                <a class="nav-link" href="#tm-section-4">地图</a>
                             </li>
                             <li class="nav-item" id="li_login">
                                 <a class="nav-link" href="#" onclick="login()" style="display: inline-block; padding-right: 0px">登录 </a>
@@ -60,7 +58,7 @@
                             </li>
 
                             <li class="nav-item" id="li_name" style="display: none">
-                                <a class="nav-link" id="user_href" href="#" onclick="" style="display: inline-block; padding-right: 0px;"><i class="fa fa-user "></i></a>
+                                <a class="nav-link" id="user_href" href="" onclick="mytickets()" style="display: inline-block; padding-right: 0px;"><i class="fa fa-user "></i></a>
                                 /
                                 <a class="nav-link" href="#" onclick="logout()" style="display: inline-block; padding-left: 0px"> 退出登录</a>
                             </li>
@@ -181,7 +179,7 @@
                                 <p class="tm-text-highlight">简介</p>
                                 <p class="tm-text-gray">日喀则地处西藏西南部，位于雅鲁藏布江和年楚河的交汇处，是目前西藏的第二大城市，美丽旖旎的自然风光，独具特色的后藏生活，这里被誉为“最如意美好的庄园”。从日喀则继续南行，就可到达世界第一高峰珠穆朗玛峰，以北则直达那曲，往东至拉萨、山南，西进则可直抵阿里。</p>
                             </div>
-                            <a href="#" class="tm-recommended-price-box">
+                            <a href="pages/ticket.html?scenic_id=5" class="tm-recommended-price-box">
                                 <p class="tm-recommended-price">查看详情</p>
 <!--                                <p class="tm-recommended-price-link">查看详情</p>-->
                             </a>
@@ -197,7 +195,7 @@
                                 <p class="tm-text-gray">你来日喀则，你要看看巍峨的山川，深谷的密林，蔚蓝的湖水，千年的古寺。日喀则像是一个沉稳坚毅，充满智慧的守护者，在阅尽风霜后风轻云淡地承载着人们心中的信仰。</p>
                             </div>
                             <div id="preload-hover-img"></div>
-                            <a href="#" class="tm-recommended-price-box">
+                            <a href="pages/ticket.html?scenic_id=5" class="tm-recommended-price-box">
                                 <p class="tm-recommended-price">查看详情</p>
 <!--                                <p class="tm-recommended-price-link">Continue Reading</p>-->
                             </a>
@@ -221,7 +219,7 @@
                                 <p class="tm-text-highlight">简介</p>
                                 <p class="tm-text-gray">雅鲁藏布江大峡谷平均海拔3000m以上，长达近500km，世界第一大峡谷，被《中国国家地理》评选为中国最美的十大峡谷之首。最险峻、最核心的地段是从白玛狗雄往下长约近百公里的河段，其艰难与危险，堪称“人类最后的秘境”。</p>
                             </div>
-                            <a href="#" class="tm-recommended-price-box">
+                            <a href="pages/ticket.html?scenic_id=2" class="tm-recommended-price-box">
                                 <p class="tm-recommended-price">270元</p>
                                 <p class="tm-recommended-price-link">查看详情</p>
                             </a>
@@ -236,7 +234,7 @@
                                 <p class="tm-text-highlight">游记</p>
                                 <p class="tm-text-gray"> 穿过了林芝县的茂密森林，一副田园画尽展眼前，天空蓝得炫目，云朵白得精彩，阳光明媚得脱俗，绿油油的林芝仿佛贫瘠藏地上的一枚宝石，让人痴恋得不忍离去。迷人的尼洋河，纤纤少女一般，蜿蜒着优雅的身姿静静地流淌，在林芝城外汇入奔腾不息的雅鲁藏布江。</p>
                             </div>
-                            <a href="#" class="tm-recommended-price-box">
+                            <a href="pages/ticket.html?scenic_id=2" class="tm-recommended-price-box">
                                 <p class="tm-recommended-price">查看详情</p>
                             </a>
                         </div>
@@ -258,7 +256,7 @@
                                 <p class="tm-text-highlight">简介</p>
                                 <p class="tm-text-gray">珠穆朗玛峰是世界最高大的山系喜马拉雅山的主峰，位于中国和尼泊尔交界，北坡在中国西藏定日县境内，南坡在尼泊尔境内。山顶终年积雪，高度8848.13米，为世界第一高峰。 珠穆朗玛为藏语的音译，简称珠峰，又意译作圣母峰，意为“女神第三”。</p>
                             </div>
-                            <a href="#" class="tm-recommended-price-box">
+                            <a href="pages/ticket.html?scenic_id=3" class="tm-recommended-price-box">
                                 <p class="tm-recommended-price">180元</p>
                                 <p class="tm-recommended-price-link">查看详情</p>
                             </a>
@@ -275,7 +273,7 @@
                                     如果不是这一次在冲动之下的说走就走
                                     怎会知道藏地比想象中的更加迷人</p>
                             </div>
-                            <a href="#" class="tm-recommended-price-box">
+                            <a href="pages/ticket.html?scenic_id=3" class="tm-recommended-price-box">
                                 <p class="tm-recommended-price">查看详情</p>
                             </a>
                         </div>
@@ -297,7 +295,7 @@
                                 <p class="tm-text-highlight">简介</p>
                                 <p class="tm-text-gray">羊卓雍措，简称羊湖，距拉萨不到100公理，与纳木措、玛旁雍措并称西藏三大圣湖，是喜马拉雅山北麓最大的内陆湖泊，湖光山色之美，冠绝藏南。</p>
                             </div>
-                            <a href="#" class="tm-recommended-price-box">
+                            <a href="pages/ticket.html?scenic_id=4" class="tm-recommended-price-box">
                                 <p class="tm-recommended-price">108元</p>
                                 <p class="tm-recommended-price-link">查看详情</p>
                             </a>
@@ -314,7 +312,7 @@
                                     那说走就走，是对向往迈进的一个决定！ 山脚下的检查站开始卖门票了，只要说是去拉孜县就不会被要求买门票，只是不能去山顶的观景台，但是一路都是风景，不影响游览。</p>
                             </div>
                             <div id="preload-hover-img"></div>
-                            <a href="#" class="tm-recommended-price-box">
+                            <a href="pages/ticket.html?scenic_id=4" class="tm-recommended-price-box">
                                 <p class="tm-recommended-price">查看详情</p>
                             </a>
                         </div>
@@ -336,7 +334,7 @@
                                 <p class="tm-text-highlight">简介</p>
                                 <p class="tm-text-gray">西藏海拔最低的地方，优美的田园风光，让你有恍惚置身江南之感。空气清新，特别是三月份才是最美的世外桃源，并且植被相当茂密。</p>
                             </div>
-                            <a href="#" class="tm-recommended-price-box">
+                            <a href="pages/ticket.html?scenic_id=6" class="tm-recommended-price-box">
                                 <p class="tm-recommended-price">查看详情</p>
                             </a>
                         </div>
@@ -350,7 +348,7 @@
                                 <p class="tm-text-highlight">游记</p>
                                 <p class="tm-text-gray">“最是人间好时节，梅花落尽桃花开”，年幼时只道赏花是矫揉造作之举，直至某天发觉那一树一树花开的明媚生机着实让人心动，竟也开始追寻极致花境。锁定那一片雪域桃花林，西藏东南部——林芝，位于高原寒境却还拥有热带雨林景致的神奇之地。</p>
                             </div>
-                            <a href="#" class="tm-recommended-price-box">
+                            <a href="pages/ticket.html?scenic_id=6" class="tm-recommended-price-box">
                                 <p class="tm-recommended-price">查看详情</p>
                             </a>
                         </div>
@@ -363,11 +361,16 @@
             </div>
         </div>
 
+        <div class="tm-container-outer" id="tm-section-4"></div>
+        <div id="r-result">请输入:<input type="text" id="suggestId" size="20" value="百度" style="width:150px;" /></div>
+        <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
+        <div id="allmap" style="width: 100%; height: 800px;"></div>
 
         <footer class="tm-container-outer">
             <p class="mb-0">Copyright © <span class="tm-current-year">2018</span></p>
         </footer>
     </div>
+
 
 </div>
 
@@ -379,6 +382,7 @@
 <script src="slick/slick.min.js"></script>
 <script src="js/jquery.scrollTo.min.js"></script>
 <script src="js/index.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=9ozuAuuvGLwHn4Ik6Ekqt9yN5VjE5j1s"></script>
 <?php
 include_once 'pages/index.php';
 check_session();
@@ -387,26 +391,10 @@ check_session();
     /* DOM is ready
     ------------------------------------------------*/
     $(function () {
-
-        // Change top navbar on scroll
-        $(window).on("scroll", function () {
-            if ($(window).scrollTop() > 100) {
-                $(".tm-top-bar").addClass("active");
-            } else {
-                $(".tm-top-bar").removeClass("active");
-            }
-        });
-
         // Smooth scroll to search form
         $('.tm-down-arrow-link').click(function () {
             $.scrollTo('#section-hot', 300, {easing: 'linear'});
         });
-
-        // Date Picker in Search form
-        // var pickerCheckIn = datepicker('#inputCheckIn');
-        // var pickerCheckOut = datepicker('#inputCheckOut');
-
-        // Update nav links on scroll
         $('#tm-top-bar').singlePageNav({
             currentClass: 'active',
             offset: 60
@@ -424,10 +412,88 @@ check_session();
             slidesToShow: 1,
             slidesToScroll: 1
         });
-
-
         $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
     });
+
+    function G(id) {
+        return document.getElementById(id);
+    }
+
+    var map = new BMap.Map("allmap");    // 创建Map实例
+    map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+    //添加地图类型控件
+    map.addControl(new BMap.MapTypeControl({
+        mapTypes:[
+            BMAP_NORMAL_MAP,
+            BMAP_HYBRID_MAP
+        ]}));
+    map.addControl(new BMap.NavigationControl());
+    map.addControl(new BMap.ScaleControl());
+    map.addControl(new BMap.OverviewMapControl());
+    map.addControl(new BMap.MapTypeControl());
+    map.setCurrentCity("拉萨");          // 设置地图显示的城市 此项是必须设置的
+    map.centerAndZoom("拉萨",12);
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+    var ac = new BMap.Autocomplete(    //建立一个自动完成的对象
+        {"input" : "suggestId"
+            ,"location" : map
+        });
+    ac.addEventListener("onhighlight", function(e) {  //鼠标放在下拉列表上的事件
+        var str = "";
+        var _value = e.fromitem.value;
+        var value = "";
+        if (e.fromitem.index > -1) {
+            value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+        }
+        str = "FromItem<br />index = " + e.fromitem.index + "<br />value = " + value;
+
+        value = "";
+        if (e.toitem.index > -1) {
+            _value = e.toitem.value;
+            value = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+        }
+        str += "<br />ToItem<br />index = " + e.toitem.index + "<br />value = " + value;
+        G("searchResultPanel").innerHTML = str;
+    });
+    var myValue;
+    ac.addEventListener("onconfirm", function(e) {    //鼠标点击下拉列表后的事件
+        var _value = e.item.value;
+        myValue = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+        G("searchResultPanel").innerHTML ="onconfirm<br />index = " + e.item.index + "<br />myValue = " + myValue;
+
+        setPlace();
+    });
+    ac.addEventListener("onblur", function(e) {    //鼠标点击下拉列表后的事件
+        var _value = e.item.value;
+        myValue = _value.province +  _value.city +  _value.district +  _value.street +  _value.business;
+        G("searchResultPanel").innerHTML ="onconfirm<br />index = " + e.item.index + "<br />myValue = " + myValue;
+
+        setPlace();
+    });
+
+
+    function setPlace(){
+        map.clearOverlays();    //清除地图上所有覆盖物
+        function myFun(){
+            var pp = local.getResults().getPoi(0).point;    //获取第一个智能搜索的结果
+            map.centerAndZoom(pp, 18);
+            map.addOverlay(new BMap.Marker(pp));    //添加标注
+        }
+        var local = new BMap.LocalSearch(map, { //智能搜索
+            onSearchComplete: myFun
+        });
+        local.search(myValue);
+    }
+
+    // Change top navbar on scroll
+    $(window).on("scroll", function () {
+        if ($(window).scrollTop() > 100) {
+            $(".tm-top-bar").addClass("active");
+        } else {
+            $(".tm-top-bar").removeClass("active");
+        }
+    });
+
 </script>
 
 </body>

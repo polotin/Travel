@@ -33,3 +33,7 @@ function logout(){
     $("#li_name").css("display","none");
     $("#li_logout").css("display","none");
 }
+
+function mytickets() {
+    $(location).attr('href', 'pages/mytickets.html');
+}
