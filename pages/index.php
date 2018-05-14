@@ -68,7 +68,7 @@ function load_hot()
                                 <div class="tm-slideshow-description tm-bg-primary">
                                     <h2 class="">天湖</h2>
                                     <p>四千万年的山川湖泊，全世界只有一个纳木错。在不同的季节、不同的位置，呈现出不一样的蓝色光焰，你只要在湖边站上几分钟，她就可以因云层的涌动和风吹的波澜而为你上演蓝色的迷幻变奏曲，那波光可以洗涤每个人的灵魂，只要这个人自己愿意。</p>
-                                    <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">了解更多</a>
+                                    <a href="pages/ticket.html?scenic_id=9" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">了解更多</a>
                                 </div>
                             </section>';
 
