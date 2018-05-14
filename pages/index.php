@@ -37,7 +37,7 @@ function load_hot()
                             布达拉宫（藏文：པོ་ཏ་ལ，藏语拼音：bo da la，威利：po ta la），坐落于于中国西藏自治区的首府拉萨市区西北玛布日山上，是世界上海拔最高，集宫殿、城堡和寺院于一体的宏伟建筑，也是西藏最庞大、最完整的古代宫堡建筑群。
                             布达拉宫依山垒砌，群楼重叠，殿宇嵯峨，气势雄伟，是藏式古建筑的杰出代表（据说源于桑珠孜宗堡），中华民族古建筑的精华之作，是第五套人民币50元纸币背面的风景图案。主体建筑分为白宫和红宫两部分。宫殿高200余米，外观13层，内为9层。布达拉宫前辟有布达拉宫广场，是世界上海拔最高的城市广场。
                         </p>
-                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">了解更多</a>
+                        <a href="pages/ticket.html?scenic_id=7" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">了解更多</a>
                     </div>
                 </section>';
 
