@@ -54,7 +54,7 @@ function load_hot()
                                     <h2 class="">藏式宗教建筑的千古典范</h2>
                                     <p>八廓街的中心便是大昭寺，是当年松赞干布为纪念尺尊公主入藏而建。寺庙最初的名字“惹萨”后来成为这座城市的名字，并演化为今天的“拉萨”。因此，人们常说“先有大昭寺，后有拉萨城”。大昭寺作为“西藏的眼睛”，在西藏宗教文化中有着至高无上的地位，一直是各种重大佛事活动的中心，每日来此转经的人更是络绎不绝。
 大昭寺最大的看头是当年文成公主入蕃时带来的释迦摩尼十二岁等身像。拉萨之所以被称为“圣地”，就与这座佛像有关。大殿通道入口处右侧是关于大昭寺建寺故事的壁画，要了解大昭寺、7世纪时的拉萨、松赞干布和文成公主，就一定要先看这幅。也别忘了登上三楼平台，这里是遥望布达拉宫、俯瞰大昭寺广场好地方。</p>
-                                    <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight">了解更多</a>
+                                    <a href="pages/ticket.html?scenic_id=8" class="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight">了解更多</a>
                                 </div>                        
             
                             </section>';
